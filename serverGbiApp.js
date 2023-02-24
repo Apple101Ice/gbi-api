@@ -10,7 +10,7 @@ app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Methods", "GET,POST,DELETE,PUT,OPTIONS");
   next();
 });
-const port = process.env.PORT || 2410;
+const port = process.env.PORT;
 grtOrLess = "";
 statecity = [];
 customers = [
